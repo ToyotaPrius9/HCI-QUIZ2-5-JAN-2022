@@ -8,97 +8,95 @@ This is a solution to the [News homepage Quiz 2 challenge]
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+
 
 ## Overview
+This page build was an attempt to recreate a news page, it consisted of three main files used: Assets, index.html, and style.css.
+This readme takes use of backgound colors, text elements (such as h1, p1), img properties (to adjust size) and an svg (for the logo)
 
 ### The challenge
 
+The challenge for this build was to format and positioniing items and divs. Positioning divs were difficult, i was attempting to make use of inline-block hoping that the child elements would display in an inline format but it did not, so what i did was creating excess child elements and making column and row formats for each child individually, altho it works, it may not be the most ideal way. How i did this was create a div class called row and one called column.
+
+
+
+
 Users should be able to:
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- View content in strictly a desktop display
+- Click the red button which says read more
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://user-images.githubusercontent.com/114371673/210712536-fc6eb4b8-f0bc-4071-95ab-68985f63fa35.png)
 
-Add a screenshot of your solution. Crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/ToyotaPrius9/HCI-QUIZ2-5-JAN-2022
+- Live Site URL: https://hci-quiz2-5-jan-2022.pages.dev/
 
-## My process
+
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup language
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- [Styled Components](https://styled-components.com/) - For styles
+- VS Code (IDE)
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned on how svgs are used and how useful they can be, other things i've learned is the proper way of formatting navs on the top right, and along with positioning 
+flexboxes which consists of both row and column child classes.
 
-To see how you can add code snippets, see below:
+The code below is the CSS to reference on how i made the row and column in a child class:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+--css--
+
+.row{
+    display: flex;
+    flex-flow: row;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.column{
+    display: flex;
+    flex-flow: column;
+    gap: 28px;
+    margin-top: 24px;
 }
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+From this point on, i will continue to develop my skils of formatting items using css properties (mainly flexbox), formatting items just the way i wish for it
+to be is one skill that i would like to perfect in the coming future. 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+
+
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 1](https://www.w3schools.com) - This helped me for making the red button, I really liked this simplistic way of creating a button and will use it     going forward.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
-## Your Detail 
 
-- FullName - [Add your name here]
-- StudentID - [Add your StudentID here]
-- BINUS Email - [Add your BINUS email here]
+## My Detail 
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- FullName - Harman Singh Minhas
+- StudentID - 2602184220
+- BINUS Email - harman.singh@binus.ac.id
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+
