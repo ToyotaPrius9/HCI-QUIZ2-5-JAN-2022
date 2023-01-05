@@ -91,7 +91,7 @@ to be is one skill that i would like to perfect in the coming future.
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com) - This helped me for making the red button, I really liked this simplistic way of creating a button and will use it     going forward.
+- [Example resource 1]([https://www.w3schools.com](https://www.w3schools.com/tags/tag_button.asp)) - This helped me for making the red button, I really liked this simplistic way of creating a button and will use it again going forward.
 
 
 
