@@ -1,0 +1,100 @@
+
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    
+    color: hsl(228, 45%, 44%); 
+
+}
+
+
+
+.test{
+    
+    
+    max-width: 85%;
+    padding-left: 0%;
+    margin-left: 7%;
+    
+    
+    min-height: 600px;
+    
+    
+}
+
+.nav{
+    display: flex;
+    float:right;
+    justify-content: flex-end;
+    
+    min-width: 90%;
+    
+    
+
+    
+    
+}
+
+.text{
+    padding-top: 100px;
+
+
+}
+
+
+
+.block1{
+    margin-top: -60px;
+    
+
+    max-width: 50%;
+}
+
+.head1{
+    display: flex;
+    flex-flow: column;
+    
+}
+.head1 img{
+    max-height: 200px;
+    
+}
+.head1 h1{
+    max-width: 30%;
+    
+}
+.row{
+    display: flex;
+    flex-flow: row;
+}
+.column{
+    display: flex;
+    flex-flow: column;
+    gap: 28px;
+    margin-top: 24px;
+}
+.head1 button{
+    background-color: red;
+    border: none;
+    color: var(--Off-white);
+    width: 200px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color:aliceblue;
+}
+
+
+
+
+
+
+
