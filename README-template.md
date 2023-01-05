@@ -64,10 +64,14 @@ The code below is the CSS to reference on how i made the row and column in a chi
 --css--
 
 .row{
+
     display: flex;
     flex-flow: row;
 }
+
+
 .column{
+
     display: flex;
     flex-flow: column;
     gap: 28px;
